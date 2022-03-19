@@ -37,9 +37,10 @@
 }
 
 .u-section-1 .u-repeater-1 {
-  grid-template-columns: 100%;
+  grid-template-columns: 50% 50%;
   grid-gap: 0px 0px;
   min-height: 362px;
+  grid-auto-columns: 25%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -209,5 +210,3 @@
     margin-left: 112px;
   }
 }
-
-input[type=color]:hover{background:#fff;cursor: pointer;}
