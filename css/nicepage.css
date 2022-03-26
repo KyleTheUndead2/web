@@ -35992,8 +35992,8 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #555cc9 !important;
         }
 
-        u-text-active-color-red:active { color:#ff0000}
-        u-text-hover-color-blue:hover { color:#555cc9}
+        u-text-active-color-red:active { color:#ff0000;font-family: Bungee Shade;font-weight: 700;}
+        u-text-hover-color-blue:hover { color:#555cc9;;font-family: Bungee Shade;font-weight: 700;}
         
         
         .u-text-custom-color-6,
