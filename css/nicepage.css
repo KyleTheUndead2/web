@@ -4699,6 +4699,7 @@ ol {
 .u-post-content a,
 .u-tab-item a,
 .u-nav-item a {
+  color:#555cc9;
   font-size: inherit;
   font-family: Bungee Shade;
   font-weight: 700;
@@ -17692,6 +17693,7 @@ div.u-video,
   background-color: transparent;
   margin: 0;
   -webkit-text-decoration-skip: objects;
+  color:#555cc9;
 }
 .u-nav-link,
 .u-nav-link:hover,
