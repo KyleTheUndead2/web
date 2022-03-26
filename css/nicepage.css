@@ -4699,7 +4699,7 @@ ol {
 .u-post-content a,
 .u-tab-item a,
 .u-nav-item a {
-  color:#555cc9;
+  color:#000dff;
   font-size: inherit;
   font-family: Bungee Shade;
   font-weight: 700;
@@ -17693,7 +17693,7 @@ div.u-video,
   background-color: transparent;
   margin: 0;
   -webkit-text-decoration-skip: objects;
-  color:#555cc9;
+  color:#000dff;
 }
 .u-nav-link,
 .u-nav-link:hover,
@@ -35996,7 +35996,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
 
         u-text-active-color-red:active { color:#ff0000;font-family: Bungee Shade;font-weight: 700;}
-        u-text-hover-color-blue:hover { color:#555cc9;;font-family: Bungee Shade;font-weight: 700;}
+        u-text-hover-color-blue:hover { color:#000dff;;font-family: Bungee Shade;font-weight: 700;}
         
         
         .u-text-custom-color-6,
