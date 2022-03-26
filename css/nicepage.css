@@ -4700,7 +4700,8 @@ ol {
 .u-tab-item a,
 .u-nav-item a {
   font-size: inherit;
-  font-family: inherit;
+  font-family: Bungee Shade;
+  font-weight: 700;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
