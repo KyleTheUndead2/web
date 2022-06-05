@@ -24,16 +24,30 @@
 }
   
 .u-section-1 .u-list-1 {
-  margin-top: 120px;
-  margin-bottom: 112px;
+  margin-top: 150px;
+  margin-bottom: 0;
+  grid-template-rows: auto;
 }
+
+.u-section-1 .u-list-2 {
+  margin-top: 0;
+  margin-bottom: 156px;
+  grid-template-rows: auto;
+}
+
 .u-section-1 .u-repeater-1 {
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 50% 50%;
   grid-gap: 0px 0px;
   min-height: 362px;
-  grid-auto-columns: 25%;
+  grid-auto-columns:50%;
 }
-  
+
+.u-section-1 .u-repeater-2 {
+  grid-template-columns: 33.3333% 33.3333% 33.3333%;
+  grid-gap: 0px 0px;
+  grid-auto-columns: 33.3333%;
+}
+
 .u-section-1 .u-container-layout-1 {
   padding: 30px 1px;
 }
@@ -69,13 +83,7 @@
     width: auto;
     margin-top: 40px;
   }
-    
-  .u-section-1 .u-list-1 {
-    width: 990px;
-    margin-right: -50px;
-    margin-left: auto;
-  }
-    
+        
   .u-section-1 .u-container-layout-1 {
     padding-left: 0;
     padding-right: 0;
@@ -89,18 +97,17 @@
     margin-left: 0;
     margin-right: 0;
   }
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: calc(50% - 25px) calc(50% - 25px);
-    min-height: 659px;
+
+  .u-section-1 .u-repeater-2 {
+    grid-template-columns: repeat(3, 33.333333333333336%);
+    grid-auto-columns: 33.333333333333336%;
   }
-  .u-section-1 .u-list-1 {
-    margin-bottom: 171px;
-  }
+
 }
   
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    margin-bottom: 177px;
+    margin-bottom: 0px;
   }
     
   .u-section-1 .u-text-1 {
@@ -108,19 +115,13 @@
     font-size: 7.4rem;
   }
     
-  .u-section-1 .u-list-1 {
-    width: 720px;
-    margin-right: 0;
-    margin-bottom: 85px;
-  }
   .u-section-1 .u-repeater-1 {
-    grid-template-columns: calc(50% - 50px) calc(50% - 50px);
-    grid-gap: 100px 100px;
-    min-height: 685px;
-    grid-auto-columns: 50%;
+    grid-template-columns: 50% 50%;
   }
-  .u-section-1 .u-list-1 {
-    margin-bottom: 60px;
+
+  .u-section-1 .u-repeater-2 {
+    grid-template-columns: 100%;
+    grid-auto-columns: 100%;
   }
 }
   
@@ -133,12 +134,7 @@
   .u-section-1 .u-text-2 {
     margin-top: 55px;
   }
-    
-  .u-section-1 .u-list-1 {
-    width: 540px;
-    margin-top: 112px;
-  }
-    
+        
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
     grid-gap: 0px 0px;
@@ -159,12 +155,7 @@
     font-size: 2.75rem;
     margin-top: 58px;
   }
-    
-  .u-section-1 .u-list-1 {
-    width: 340px;
-    margin-top: 120px;
-  }
-        
+            
   .u-section-1 .u-icon-2 {
     margin-left: 112px;
   }

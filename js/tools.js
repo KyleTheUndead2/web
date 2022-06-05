@@ -62,5 +62,5 @@ function update(t) {
 }
 Time();
 function openFullscreen() {
-    window.location.assign('https://www.kyletheundead.tk/tools/clock/fullscreen/')
+    window.location.assign('/tools/clock/fullscreen/')
 }
