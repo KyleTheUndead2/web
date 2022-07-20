@@ -44,6 +44,6 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
     id: "#color-calendar",
     theme: "basic",
     primaryColor: "#478ac9",
-    weekdayType: "short",
+    weekdayDisplayType: "short",
     startWeekday: 1,
   });
